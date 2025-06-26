@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  margin-bottom: 0.5em;
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+code {
+  background-color: transparent;
+  color: #f0f;
+  text-align: left;
+  padding: 0;
+  display: inline-block;
+  font-size: 0.95em;
+  line-height: 1.4em;
+}
+
+.habilidades .botoes button {
+  background: none;
+  color: #f0f;
+  border: 1px solid #f0f;
+  padding: 6px 12px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: default;
+}
+
+.projetos .projeto img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.projetos a,
+.btn-link {
+  color: #f0f;
+  text-decoration: none;
+}
+
+.projetos a:hover,
+.btn-link:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.github-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.modal-content {
+  background-color: black;
+  color: white;
+}
